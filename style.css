@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2? family = Red + Hat + Display: wght @ 500; 700; 900 & display = swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+  background: hsl(225, 100%, 98%);
+  width: 300px;
+  height: 600px;
+  margin: auto;
+  border-radius: 5%;
+
+  min-width: 375px;
+  max-width: 1440px;
+}
+
+.foto_header {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: -10px;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 10px;
+}
+
+.text1 {
+  color: hsl(223, 47%, 23%);
+  font-size: 16px;
+  justify-content: center;
+  margin-top: 10;
+}
+
+.icon {
+  border: hsl(230, 100%, 99%);
+  border-radius: 8px;
+  border-top: 12px;
+  padding: 10px;
+  background-color: hsl(0, 75%, 97%);
+  display: table;
+  width: 100%;
+  padding: auto;
+}
+.paragraf > p {
+  color: hsl(0, 0%, 69%);
+}
+.imagem {
+  display: table-cell;
+  float: left;
+}
+
+.paragraf {
+  display: table-cell;
+  float: left;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+.ancora {
+  display: table-cell;
+  float: right;
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: hsl(245, 72%, 57%);
+}
+
+span {
+  display: block;
+  color: hsl(223, 47%, 23%);
+  font-family: 'Red Hat Display', sans-serif;
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
+
+.pag {
+  display: block;
+  background-color: hsl(245, 72%, 57%);
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.cancel {
+  font-size: 'Red Hat Display', sans-serif;
+  text-decoration: none;
+  color: hsl(223, 47%, 23%);
+  margin-top: 30px;
+}
+
+.attribution {
+  background-color: aqua;
+  display: none;
+}
